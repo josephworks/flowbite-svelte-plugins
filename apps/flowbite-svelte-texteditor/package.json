@@ -50,6 +50,11 @@
     "type": "git",
     "url": "git+https://github.com/shinokada/flowbite-svelte-plugins.git"
   },
+  "overrides": {
+    "vite-plugin-devtools-json": {
+      "vite": "$vite"
+    }
+  },
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
@@ -107,6 +112,7 @@
     "@tiptap/extension-code": "3.23.6",
     "@tiptap/extension-code-block": "3.23.6",
     "@tiptap/extension-code-block-lowlight": "3.23.6",
+    "@tiptap/extension-collaboration": "3.23.6",
     "@tiptap/extension-color": "3.23.6",
     "@tiptap/extension-details": "3.23.6",
     "@tiptap/extension-document": "3.23.6",
@@ -157,7 +163,7 @@
     "@tiptap/starter-kit": "3.23.6",
     "@tiptap/suggestion": "3.23.6",
     "flowbite-typography": "^1.0.5",
-    "katex": "^0.17.0",
+    "katex": "^0.16.47",
     "lowlight": "^3.3.0"
   },
   "exports": {
