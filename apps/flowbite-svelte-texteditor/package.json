@@ -75,7 +75,7 @@
     "prettier-plugin-svelte": "^4.0.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "publint": "^0.3.21",
-    "runes-meta-tags": "^0.4.5",
+    "runes-meta-tags": "^0.5.0",
     "svelte": "^5.55.9",
     "svelte-check": "^4.4.8",
     "svelte-doc-llm": "^0.8.0",
@@ -191,8 +191,8 @@
       "svelte": "./dist/bubble-menu/BubbleMenu.svelte"
     },
     "./CharacterCount.svelte": {
-      "types": "./dist/character-count/CharacterCount.svelte.d.ts",
-      "svelte": "./dist/character-count/CharacterCount.svelte"
+      "types": "./dist/charcter-count/CharacterCount.svelte.d.ts",
+      "svelte": "./dist/charcter-count/CharacterCount.svelte"
     },
     "./DetailsButton.svelte": {
       "types": "./dist/details/DetailsButton.svelte.d.ts",

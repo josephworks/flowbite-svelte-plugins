@@ -531,8 +531,8 @@ importers:
         specifier: ^0.3.21
         version: 0.3.21
       runes-meta-tags:
-        specifier: ^0.4.5
-        version: 0.4.5(svelte@5.55.9(@typescript-eslint/types@8.59.4))
+        specifier: ^0.5.0
+        version: 0.5.0(svelte@5.55.9(@typescript-eslint/types@8.59.4))
       svelte:
         specifier: ^5.55.9
         version: 5.55.9(@typescript-eslint/types@8.59.4)
@@ -2373,8 +2373,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fastq@1.19.1:
-    resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
+  fastq@1.20.1:
+    resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
 
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
@@ -3156,6 +3156,11 @@ packages:
 
   runes-meta-tags@0.4.5:
     resolution: {integrity: sha512-4D6KmeW3cLzHepNUrM8Pgz6YrerQHDpZHGcHZ6PNczTB+GlFwZxYmmAxLF6JeH2zVh3p+vjYiDOfCN+c7MHiEw==}
+    peerDependencies:
+      svelte: ^5.0.0
+
+  runes-meta-tags@0.5.0:
+    resolution: {integrity: sha512-6tU2d3T4ge8PPbR1iTNHzDYAX7aFPFv5by752PfeaQYyee+TwP9TRv5V27sCbGueh47OYrFsKTrLwjaRlkvZfw==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -4050,7 +4055,7 @@ snapshots:
   '@nodelib/fs.walk@1.2.8':
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.19.1
+      fastq: 1.20.1
 
   '@oxc-project/types@0.132.0': {}
 
@@ -4734,7 +4739,8 @@ snapshots:
 
   '@types/esrecurse@4.3.1': {}
 
-  '@types/estree@1.0.8': {}
+  '@types/estree@1.0.8':
+    optional: true
 
   '@types/estree@1.0.9': {}
 
@@ -5264,7 +5270,7 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fastq@1.19.1:
+  fastq@1.20.1:
     dependencies:
       reusify: 1.1.0
 
@@ -5485,7 +5491,7 @@ snapshots:
 
   is-reference@3.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   is-subdir@1.2.0:
     dependencies:
@@ -6009,6 +6015,10 @@ snapshots:
       queue-microtask: 1.2.3
 
   runes-meta-tags@0.4.5(svelte@5.55.9(@typescript-eslint/types@8.59.4)):
+    dependencies:
+      svelte: 5.55.9(@typescript-eslint/types@8.59.4)
+
+  runes-meta-tags@0.5.0(svelte@5.55.9(@typescript-eslint/types@8.59.4)):
     dependencies:
       svelte: 5.55.9(@typescript-eslint/types@8.59.4)
 

@@ -31,6 +31,11 @@
     "lib-helpers": "pnpm gen:component-data-prop-value && pnpm gen:docspropvalue && pnpm format && pnpm package && pnpm gen:exports && pnpm copy:packagejson && pnpm llm",
     "llm": "svelte-doc-llm"
   },
+  "overrides": {
+    "vite-plugin-devtools-json": {
+			"vite": "$vite"
+		}
+  },
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
